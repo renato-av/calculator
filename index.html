@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/style.css">
+  <title>Calculator</title>
+</head>
+
+<body class="dark__mode">
+  <div class="calculator">
+    <div class="display">
+      <div id="stack" class="display__stack">0</div>
+      <div id="current" class="display__current">0</div>
+    </div>
+    <div class="buttons">
+      <div class="buttons__row">
+        <button data-type="clear" class="operator">C</button>
+        <button data-type="erase" class="operator">DEL</button>
+        <button data-type="percentage" class="operator">%</button>
+        <button data-type="operation" class="operator">/</button>
+      </div>
+      <div class="buttons__row">
+        <button data-type="number" >7</button>
+        <button data-type="number" >8</button>
+        <button data-type="number" >9</button>
+        <button data-type="operation" class="operator">*</button>
+      </div>
+      <div class="buttons__row">
+        <button data-type="number" >4</button>
+        <button data-type="number" >5</button>
+        <button data-type="number" >6</button>
+        <button data-type="operation" class="operator">-</button>
+      </div>
+      <div class="buttons__row">
+        <button data-type="number" >1</button>
+        <button data-type="number" >2</button>
+        <button data-type="number" >3</button>
+        <button data-type="operation" class="operator">+</button>
+      </div>
+      <div class="buttons__row">
+        <button data-type="number" class="button button--zero">0</button>
+        <button data-type="number" class="button">.</button>
+        <button data-type="operation" class="operator  button--equal">=</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/index.js"></script>
+</body>
+
+</html>
